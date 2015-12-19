@@ -1,0 +1,58 @@
+/*div
+{
+	border: 1px dashed black;
+}*/
+
+
+@font-face {
+    font-family: 'Johnston';
+    src: url(johnston_itc_bold_os.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(Ubuntu-L.ttf);
+}
+
+body
+{
+	background-image: url("site_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #30485b;
+}
+
+h2
+{
+	text-align: center;
+	color: #913e7e;
+	font-family: "Johnston";
+	font-size: 24px;
+	line-height: 16px;
+}
+
+p
+{
+	color: white;
+	font-family: "Ubuntu";
+	padding-top: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.container
+{
+	padding: 0px;
+	margin: 0 auto;
+	width: 480px;
+}
+
+.title
+{
+	width: 464px;
+	height: 126px;
+	padding-top: 168px;
+}
